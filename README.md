@@ -108,15 +108,6 @@ export DATABASE_URL="postgres://...?ssl=true"
 
 You can also directly access your PostgreSQL database. Download and install one of the many PostgreSQL clients and use the `DATABASE_URL` from Heroku for the connection information.
 
-### Heroku with MongoDB
-
-Heroku has several MongoDB add-ons. Provision a free MongoDB add-on with:
-
-```
-heroku addons:create mongolab:sandbox
-```
-
-Once you have deployed your application (and provisioned the database) seed the database on Heroku with `mongoimport`. You will need the `MONGODB_URI` from `heroku config`.
 
 ## Learn More
 
