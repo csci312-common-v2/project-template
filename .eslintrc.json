@@ -26,6 +26,7 @@
     }
   },
   "rules": {
+    "camelcase": "warn",
     "constructor-super": "error",
     "no-class-assign": "error",
     "no-confusing-arrow": [
